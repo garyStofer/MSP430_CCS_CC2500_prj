@@ -1,0 +1,7 @@
+Make sure that the project settings  erase MAIN memory only,
+NOT info memor or protected info memory as well
+
+Info memory Segment D contains sensor cal values
+protected Info memory SegmentA contains Osc cal and the MAC address of the device 
+
+Project:Properties:CCS Debug Settings::Target:MSP430 Properties:"Erase main memory only"

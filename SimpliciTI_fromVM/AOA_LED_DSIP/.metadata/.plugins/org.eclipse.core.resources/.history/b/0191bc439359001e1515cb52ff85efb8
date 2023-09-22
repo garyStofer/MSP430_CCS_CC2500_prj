@@ -1,0 +1,9 @@
+-z 
+-m"aoa_displ.map" 
+--stack_size=80 
+--heap_size=80 
+--warn_sections 
+-i"C:/Program Files/Texas Instruments/ccsv4/msp430/include" -i"C:/Program Files/Texas Instruments/ccsv4/tools/compiler/msp430/lib" -i"C:/Program Files/Texas Instruments/ccsv4/tools/compiler/msp430/include" 
+--reread_libs 
+--rom_model 
+"./SimplicityComponents/bsp/bsp.obj" "./SimplicityComponents/mrfi/mrfi.obj" "./SimplicityComponents/nwk/nwk_globals.obj" "./SimplicityComponents/nwk/nwk_frame.obj" "./SimplicityComponents/nwk/nwk_api.obj" "./SimplicityComponents/nwk/nwk_QMgmt.obj" "./SimplicityComponents/nwk/nwk.obj" "./SimplicityComponents/nwk_app/nwk_security.obj" "./SimplicityComponents/nwk_app/nwk_ping.obj" "./SimplicityComponents/nwk_app/nwk_mgmt.obj" "./SimplicityComponents/nwk_app/nwk_link.obj" "./SimplicityComponents/nwk_app/nwk_join.obj" "./SimplicityComponents/nwk_app/nwk_ioctl.obj" "./SimplicityComponents/nwk_app/nwk_freq.obj" "./comn/vlo_rand.obj" "./main_Display.obj" "./MAX_7313.obj" "./BitBangI2C_master.obj" -l"rts430.lib" "D:/MSP430_CCS_CC2500_prj/SimpliciTI_fromVM/AOA_LED_DSIP/Common/lnk_msp430f2274.cmd" 

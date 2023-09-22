@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="com.ti.ccstudio.managedbuild.ui.wizards.project.CCEProjectPropertiesPage.PROJECT_TYPE" value="com.ti.ccstudio.buildDefinitions.MSP430.ProjectType"/>
+	<section name="outline_presenter_bounds">
+	</section>
+	<section name="com.ti.common.managedbuild.ui.wizards.project.ProjectPropertiesPage">
+		<item key="CCE.ASSEMBLY_ONLY" value="false"/>
+		<item key="CCE.CODEGEN_TOOL_VERSION" value="3.2.1"/>
+		<item key="CCE.LINKER_COMMAND_FILE" value="lnk_msp430f2274.cmd"/>
+		<item key="CCE.RUNTIME_SUPPORT_LIB" value="rts430.lib"/>
+		<item key="PROJECT_KIND" value="com.ti.ccstudio.managedbuild.core.ProjectKind_Executable"/>
+		<item key="CCE.DEVICE_ENDIANNESS" value="little"/>
+		<item key="CCE.DEVICE_VARIANT" value="MSP430F2274"/>
+	</section>
+	<section name="!CProjectWizard!">
+		<item key="locationBrowserFilterPath" value="D:\MSP430_CCS_Projects\SimpliciTI-CCS-1.1.1\AOA_LED_DSIP\AOA_Displ\New Folder"/>
+	</section>
+</section>

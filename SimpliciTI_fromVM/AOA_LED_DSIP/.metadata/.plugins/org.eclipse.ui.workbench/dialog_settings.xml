@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="StartAddressDecoration">
+		<section name="TI MSP430 USB1/MSP430">
+			<item key="StartAddressDecoration.MEM_PAGE_ID" value="0"/>
+			<list key="StartAddressDecoration.ADDRESS_LIST_ID">
+				<item value="0x1000"/>
+			</list>
+			<list key="StartAddressDecoration.ADDRESS_TEXT_ID">
+				<item value="0x1000"/>
+			</list>
+		</section>
+	</section>
+</section>

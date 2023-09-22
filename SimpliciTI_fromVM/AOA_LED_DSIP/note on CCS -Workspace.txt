@@ -1,0 +1,30 @@
+This is the folder with the Workspace for CCs -- it contains the two projects. 
+The "Workspace" is stored in a subfolder named ".metadata". An eclipse workspace can only 
+be opened from within Eclipse itself by using the menu "File/Switch Workplace".
+There is no file extension mechanism that ellows you to open en eclipse session directly
+via a click on a file from the windows explorer !!
+
+The projects contained within the workspace have to be at or below the folder where the "".metadata" folder lives.
+the the workspace path is used in the project build options to refere to pathcs outside of the project folder.
+
+The folder "Common" is used by both/all the projects within the workspace. It is included by the projects 
+as a "linked" folder. A linked folder isd estblished in Eclipse by using: "File/New Folder" and then under Advanced choose "linked". 
+Linked folders loose their link when a project is moved around on the FS and have then be re-established by relinking it.
+
+The include directories outside of the local source path are added to the build by entering them under 
+"Buil Properties/Tool_settings/Include options"  and look like this :"${workspace_loc:}/../Components\bsp".
+all folders in the simpliciti filestructure that have include files need be listed. 
+Each build Configuration in exlipse has it's own set of data -- so you have to duplicate this include for debug and release
+
+
+The Simpliciti source files have to be individually linked into a local project folder. i.e. "SimplicitiComponets".
+Only a subset of the source files of the simpliciti stack must linked since some files are sourced in by 
+these top level files via #include.
+
+ The following source files need so be linked:
+	Components/bsp/bsp.c
+	Components/mrfi/mrfi.c
+	Components/nwk -- All .c files
+	Components/nwk_app -- All .c files
+
+The links will brake when the projects or the sipliciti components are moved relative to the project

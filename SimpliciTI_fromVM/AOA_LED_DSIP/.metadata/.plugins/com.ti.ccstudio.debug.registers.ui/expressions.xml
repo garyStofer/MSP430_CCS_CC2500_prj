@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<States>
+<Expressions>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="(sLID)[1]" Name="Hexadecimal"/>
+<VariableFormatMap Class="com.ti.ccstudio.debug.registers.model.VariableFormat" IMemento.internal.id="(sLID)[0]" Name="Hexadecimal"/>
+</Expressions>
+</States>

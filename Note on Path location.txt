@@ -1,0 +1,6 @@
+The paths are hardcoded in the eclipse workspace !!  
+
+Make sure that the "Example" directory is found at exactly:
+D:\MSP430_CCS_CC2500_prj\SimpliciTI_fromVM\Examples
+
+Projects will not compile otherwise !! 

@@ -1,0 +1,9 @@
+-z 
+-m"Project.map" 
+--stack_size=80 
+--heap_size=80 
+--warn_sections 
+-i"C:/Program Files/Texas Instruments/ccsv4/msp430/include" -i"C:/Program Files/Texas Instruments/ccsv4/tools/compiler/msp430/lib" -i"C:/Program Files/Texas Instruments/ccsv4/tools/compiler/msp430/include" -i"C:/Program Files/Texas Instruments/ccsv4/tools/compiler/msp430/lib" -i"C:/Program Files/Texas Instruments/ccsv4/tools/compiler/msp430/include" 
+--reread_libs 
+--rom_model 
+"./Components/bsp/bsp.obj" "./Components/mrfi/mrfi.obj" "./Components/nwk/nwk_globals.obj" "./Components/nwk/nwk_frame.obj" "./Components/nwk/nwk_api.obj" "./Components/nwk/nwk_QMgmt.obj" "./Components/nwk/nwk.obj" "./Components/nwk_applications/nwk_security.obj" "./Components/nwk_applications/nwk_ping.obj" "./Components/nwk_applications/nwk_mgmt.obj" "./Components/nwk_applications/nwk_link.obj" "./Components/nwk_applications/nwk_join.obj" "./Components/nwk_applications/nwk_ioctl.obj" "./Components/nwk_applications/nwk_freq.obj" "./main_LinkListen.obj" -l"rts430.lib" "D:/MSP430_CCS_CC2500_prj/SimpliciTI_fromVM/Examples/Simple_Peer_to_Peer/Common/lnk_msp430f2274.cmd" 

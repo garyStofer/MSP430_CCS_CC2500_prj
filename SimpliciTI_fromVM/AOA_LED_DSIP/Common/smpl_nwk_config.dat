@@ -1,0 +1,39 @@
+# Max hop count
+--define=MAX_HOPS=3
+
+# Max hops away from and AP. Keeps hop count and therefore replay
+# storms down for sending to and from polling End Devices. Also used
+# when joining since the EDs can't be more than 1 hop away.
+--define=MAX_HOPS_FROM_AP=1
+
+# Maximum size of Network application payload. Do not change unless
+# protocol changes are reflected in different maximum network
+# application payload size.
+--define=MAX_NWK_PAYLOAD=9
+
+# Maximum size of application payload
+--define=MAX_APP_PAYLOAD=10
+
+# Default Link token
+--define=DEFAULT_LINK_TOKEN=0x01020304
+
+# Default Join token
+--define=DEFAULT_JOIN_TOKEN=0x05060708
+
+# Define Frequency Agility as active for this build
+#--define=FREQUENCY_AGILITY
+
+# Enable application autoacknowledge support. Requires extended API as well
+--define=APP_AUTO_ACK
+
+# Enable Extended API
+--define=EXTENDED_API
+
+# Remove '#' corruption to enable security. 
+#--define=SMPL_SECURE
+
+# Remove '#' to enable NV object support
+#--define=NVOBJECT_SUPPORT
+
+# Insert '#' to disable software timer
+--define=SW_TIMER

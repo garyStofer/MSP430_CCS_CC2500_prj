@@ -1,0 +1,5 @@
+#Sat Aug 26 20:10:51 PDT 2023
+eclipse.preferences.version=1
+CCEDebugOptions.TARGET_CONFIGURATION_FILE=D\:/MSP430_CCS_CC2500_prj/SimpliciTI_fromVM/AOA_LED_DSIP/aoa_displ/NewTargetConfiguration.ccxml
+CCEDebugPreferences.REMOVE_TERMINATED_LAUNCH=true
+CCEDebugOptions.RELOAD_PROGRAM_IF_CHANGED=always

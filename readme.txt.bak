@@ -1,0 +1,14 @@
+This folder contains the eclipse projects for the Ti - simplicity based applications for 
+the AOA sensor and AOA sensor display.  The workspace metafile for the two build projects is located 
+in ..../SimpliciTI_fromVM\AOA_LED_DSIP. 
+
+Aslo under .../Examples there is a workspace metafile that includes a project Simple_peer_to_peer that can be used 
+to demontrate a simple connection between two nodes. Other examples for the source could be added to this workspace.
+
+The workspaces are opened with CodeComposer Studio 4 (CCS4) and are built with the internal builder and compiled with the cl430 compiler
+provided by CCS4. Download will take place vis the TI USB adapter called "FET" that is part of the ez430-RF2500 kit.
+
+See file note on CCS Workspace.txt and "notes about Path locations" for  the issues around fixed path loations !
+
+Working installation of IDE and project can be found on old DELL 2400 D:\MSP430_CCS_CC2500_prj\SimpliciTI_fromVM\
+
